@@ -51,18 +51,17 @@
         "php": "~8.2.0 || ~8.3.0 || ~8.4.0",
         "ext-json": "*",
         "ext-openssl": "*",
-        "typo3/cms-core": "^13.4",
-        "typo3/cms-extbase": "^13.4",
-        "typo3/cms-fluid": "^13.4",
-        "typo3/cms-form": "^13.4"
+        "typo3/cms-core": "14.0.x-dev",
+        "typo3/cms-extbase": "14.0.x-dev",
+        "typo3/cms-fluid": "14.0.x-dev",
+        "typo3/cms-form": "14.0.x-dev",
+        "typo3/cms-frontend": "14.0.x-dev"
     },
     "require-dev": {
-        "codappix/typo3-php-datasets": "^1.5",
         "friendsofphp/php-cs-fixer": "^3.64",
         "phpstan/phpstan": "^1.12",
-        "ssch/typo3-rector": "^2.9",
-        "typo3/cms-dashboard": "^13.4",
-        "typo3/testing-framework": "^8.2"
+        "typo3/cms-dashboard": "14.0.x-dev",
+        "typo3/testing-framework": "^9.0"
     },
     "scripts": {
         "test:cgl": [
@@ -106,6 +105,7 @@
         ]
     },
     "suggest": {
-        "typo3/cms-dashboard": "^13.4"
-    }
+        "typo3/cms-dashboard": "14.0.x-dev"
+    },
+    "minimum-stability": "dev"
 }
